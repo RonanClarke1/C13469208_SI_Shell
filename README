@@ -24,14 +24,16 @@ D_Shell is a version of tinyshell. Made for the completion of DT211 System Integ
 	3. Change the file permissions using this command 
 		sudo chmod 755 D_Shell.py
 		sudo chmod 755 D_Shellrc 
-		sudo chmod 755 D_Shell.config 
+		sudo chmod 755 D_Shell.config
+		sudo chmod 755 helpdoc 
 
 		(7 - read,write, execute--Owner)(5 - read, execute -- Group)(5 - read,execute --Others)
 
 	4. Set the bash envorinment for <username> to that directory with the following command 
-			sudo usermod -s /bin/C13469208_SI_Shell/D_Shell.py 
+			sudo usermod -s /bin/C13469208_SI_Shell/D_Shell.py <username>
 
-	5. Create the users home directory 
+	5. Change the users home directory 
+			sudo usermod -d /home/user <username>
 
 	5. To confirm the above the following command will show the <username> details and shell path 
 				cat /etc/passwd
