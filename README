@@ -1,0 +1,55 @@
+#
+#	D_SHELL.py 
+#	Author : Dean O'Reilly 
+#	Credit : TinyShell
+#
+# D_Shell is a version of tinyshell. Made for the completion of DT211 System Integration 
+#
+#
+#
+#
+#
+# Several Commands are permitted 
+#
+#
+#
+# Two Internal commands to which the code holds the code to produce.
+#	dt - date command 
+# 	ud - User details command 
+# 
+# Two External commmands - to which the shell calls 
+#	ifc - ifconfig - network interface info 
+# 	pw - directory path 
+
+# To implement this shell :
+#
+#	1. Using sudo create an user account with the following command 
+		$sudo useradd <username>
+		$sudo password <username>
+	2. Then clone this reposority to /bin -- you will need to use sudo 
+	3. Change the file permissions using this command 
+		sudo chmod 755 D_Shell.py
+		sudo chmod 755 D_Shellrc 
+		sudo chmod 755 D_Shell.config 
+
+		(7 - read,write, execute--Owner)(5 - read, execute -- Group)(5 - read,execute --Others)
+
+	4. Set the bash envorinment for <username> to that directory with the following command 
+			sudo usermod -s /bin/D_Shell/D_Shell.py 
+
+	5. To confirm the above the following command will show the <username> details and shell path 
+
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+#DOR
+		cat /etc/passwd 
+
+

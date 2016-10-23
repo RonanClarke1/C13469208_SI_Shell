@@ -1,0 +1,13 @@
+# Example run-config file.
+
+alias ls='ls --color'
+alias l='ls -l'
+
+alias cd..='cd ..'
+alias pw='pwd'
+alias ud='grep dor cat /etc/passwd'
+alias dt='date'
+alias ifc='ifconfig'
+
+echo Welcome to D_SHELL .
+
