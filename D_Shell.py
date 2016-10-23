@@ -60,7 +60,7 @@ def lock_down(cmd):
     else:
         return cmd
 def help ():
-    with open('/etc/issue.net', 'r') as fin:
+    with open('helpdoc', 'r') as fin:
         print fin.read()
 
 

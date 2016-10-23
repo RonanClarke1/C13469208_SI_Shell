@@ -1,0 +1,18 @@
+#########################################################################################
+		Hello User								
+  Your account is a Locked Account							
+ 	You are using Shell :								
+		D_Shell									
+  Usage:										
+	pw - Print Working Directory							
+	ifc - will display the eth0 active interfaces details				
+	ifc [interface] - will display that interface details				
+	dt - will display the current local date and time 				
+	ud - will display userID,groupID,username,groupName,iNode of home directory	
+	exit - will log you out of the system 																	
+											
+											
+											
+										    	
+#########################################################################################
+
