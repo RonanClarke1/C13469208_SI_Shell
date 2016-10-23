@@ -25,7 +25,7 @@
 #
 #	1. Using sudo create an user account with the following command 
 		$sudo useradd <username>
-		$sudo password <username>
+		$sudo passwd <username>
 	2. Then clone this reposority to /bin -- you will need to use sudo 
 	3. Change the file permissions using this command 
 		sudo chmod 755 D_Shell.py
@@ -35,9 +35,10 @@
 		(7 - read,write, execute--Owner)(5 - read, execute -- Group)(5 - read,execute --Others)
 
 	4. Set the bash envorinment for <username> to that directory with the following command 
-			sudo usermod -s /bin/D_Shell/D_Shell.py 
+			sudo usermod -s /bin/C13469208_SI_Shell/D_Shell.py 
 
 	5. To confirm the above the following command will show the <username> details and shell path 
+				cat /etc/passwd
 
 
 
@@ -50,6 +51,6 @@
 #
 #
 #DOR
-		cat /etc/passwd 
+		 
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Usage:  tsh [options] [file]
+"""
 
 """
 
@@ -16,7 +16,7 @@ from os.path import expanduser
 VERBOSE = False
 
 # Location of main configuration file:
-CONFIG = '/bin/D_Shell/D_Shell.conf'
+CONFIG = '/bin/C13469208_SI_Shell/D_Shell.conf'
 
 allowExec = []
 allowSubShell = False
@@ -171,7 +171,7 @@ def repl():
 
     shell = Shell()
 
-    rcFile = os.path.expanduser('/bin/D_Shell/D_Shellrc')
+    rcFile = os.path.expanduser('/bin/C13469208_SI_Shell/D_Shellrc')
     if os.access(rcFile, os.R_OK):
         shell.execute_file(rcFile)
 
