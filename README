@@ -16,6 +16,7 @@ D_Shell is a version of tinyshell. Made for the completion of DT211 System Integ
 	pw - directory path 
 
  To implement this shell :
+	--Install python sudo apt-get install python 
 
 	1. Using sudo create an user account with the following command 
 		$sudo useradd <username>
